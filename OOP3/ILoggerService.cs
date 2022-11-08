@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OoP2
+namespace OOP3
 {
-    internal class Customer
+    internal interface ILoggerService
     {
-        public int ID { get; set; }
-        public string CustomerNo { get; set; }
-        
-
+        void Log();
     }
 }

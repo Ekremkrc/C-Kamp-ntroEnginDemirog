@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OoP2
 {
-    internal class Customer
+    internal class CustomerManager //iş sınıfları - business sınıfları
     {
-        public int ID { get; set; }
-        public string CustomerNo { get; set; }
-        
+        public void Add(Customer customer)
+        {
 
+        }
     }
 }

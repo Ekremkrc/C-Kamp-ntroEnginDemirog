@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace OoP2
 {
-    internal class Coorporate
+    internal class Coorporate:Customer
+        //Kurumsal müşteri
+        //miras inheritance
     {
+      
+        public string CompanyName { get; set; }
+        public string TaxNo { get; set; }   
+
     }
 }
